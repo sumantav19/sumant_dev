@@ -20,7 +20,10 @@ angular.module('yeomanTodeApp')
        top : '50%',
        'left' : '50%',
        'transform': 'translate(-50%, -50%)',
-       'text-align' : 'center'
+       'text-align' : 'center',
+       'letter-spacing' : '-1px',  
+      'background': 'rgb(0, 0, 0)', /* fallback color */
+      'background': 'rgba(0, 0, 0, 0.7)'
 
     };
 
